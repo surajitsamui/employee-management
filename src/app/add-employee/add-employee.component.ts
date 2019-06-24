@@ -1,5 +1,6 @@
 import { Component, OnInit } from '@angular/core';
-import { HttpClientService, Employee } from '../service/http-client.service';
+import { HttpClientService} from '../service/http-client.service';
+import { Employee } from '../employee/employee';
 
 @Component({
   selector: 'app-add-employee',
