@@ -1,7 +1,7 @@
 import { Injectable } from '@angular/core';
 import { HttpClient } from '@angular/common/http';
 
-export class Employee {
+ export class Employee {
   constructor(public empId: string, public name: string, public designation: string, public salary: string) { }
 }
 
