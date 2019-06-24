@@ -9,6 +9,8 @@ import { HttpClientModule } from '@angular/common/http';
 import { FooterComponent } from './footer/footer.component';
 import { HeaderComponent } from './header/header.component';
 import { AddEmployeeComponent } from './add-employee/add-employee.component';
+import { LoginComponent } from './login/login.component';
+import { LogoutComponent } from './logout/logout.component';
 
 @NgModule({
   declarations: [
@@ -16,7 +18,9 @@ import { AddEmployeeComponent } from './add-employee/add-employee.component';
     EmployeeComponent,
     FooterComponent,
     HeaderComponent,
-    AddEmployeeComponent
+    AddEmployeeComponent,
+    LoginComponent,
+    LogoutComponent
   ],
   imports: [BrowserModule, AppRoutingModule, HttpClientModule,FormsModule],
   providers: [],
